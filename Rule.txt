@@ -1,0 +1,4390 @@
+#Source
+
+type = Basic
+category = CONFIG
+parameters = {'color':1,'filter':true,'objectMarker':false,'parameterMarkers':[0]}
+Microsoft.Extensions.Configuration.ConfigurationManager : System.String get_Item(System.String)
+
+type = Basic
+category = CONFIG
+parameters = {'color':1,'filter':true,'objectMarker':false,'parameterMarkers':[]}
+BlazorShared.BaseUrlConfiguration : System.String get_WebBase()
+// CRYPTO
+
+// AES
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.Aes : System.Security.Cryptography.Aes Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.Aes : System.Security.Cryptography.Aes Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.AesManaged : void .ctor()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.AesCryptoServiceProvider : void .ctor()
+
+// DES
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DES : System.Security.Cryptography.DES Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.DES : System.Security.Cryptography.DES Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DESCryptoServiceProvider : void .ctor()
+
+// DSA
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DSA : System.Security.Cryptography.DSA Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.DSA : System.Security.Cryptography.DSA Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DSACryptoServiceProvider : void .ctor()
+
+// RC2
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RC2 : System.Security.Cryptography.RC2 Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RC2 : System.Security.Cryptography.RC2 Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RC2CryptoServiceProvider : void .ctor()
+
+// RSA
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RSA : System.Security.Cryptography.RSA Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RSA : System.Security.Cryptography.RSA Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RSACryptoServiceProvider : void .ctor()
+
+// Rijndael
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.Rijndael : System.Security.Cryptography.Rijndael Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.Rijndael : System.Security.Cryptography.Rijndael Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RijndaelManaged : void .ctor()
+
+// TripleDES
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.TripleDES : void Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.TripleDES : void Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.TripleDESCryptoServiceProvider : void .ctor()
+
+// SymmetricAlgorithm
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_IV(uint8[])
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_Key(uint8[])
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_Mode(System.Security.Cryptography.CipherMode)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_Padding(System.Security.Cryptography.PaddingMode)
+// DEBUG
+
+#Sink
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void Print(System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void Print(System.String, System.Object[])
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void Write(System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void Write(System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void Write(System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void Write(System.Object, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteIf(bool, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteIf(bool, System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteIf(bool, System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteIf(bool, System.Object, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void WriteLine(System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void WriteLine(System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void WriteLine(System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void WriteLine(System.Object, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void WriteLine(System.String, System.Object[])
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.Object, System.String)
+// FILE
+
+// Directory
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.IO.DirectoryInfo CreateDirectory(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void Delete(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void Delete(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : bool Exists(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetCreationTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetCreationTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String GetDirectoryRoot(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastAccessTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastAccessTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastWriteTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastWriteTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.IO.DirectoryInfo GetParent(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.Directory : void Move(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetCreationTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetCreationTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetCurrentDirectory(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastAccessTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastAccessTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastWriteTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastWriteTimeUtc(System.String, System.DateTime)
+
+// DirectoryInfo
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.DirectoryInfo : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.DirectoryInfo : System.IO.DirectoryInfo CreateSubdirectory(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.DirectoryInfo : void MoveTo(System.String)
+
+// File
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllText(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllText(System.String, System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllTextAsync(System.String, System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllTextAsync(System.String, System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.StreamWriter AppendText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Copy(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Copy(System.String, System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Create(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Create(System.String, int32)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Create(System.String, int32, System.IO.FileOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.StreamWriter CreateText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void Decrypt(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void Delete(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void Encrypt(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : bool Exists(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileAttributes GetAttributes(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetCreationTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetCreationTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastAccessTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastAccessTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastWriteTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastWriteTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Move(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Move(System.String, System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Open(System.String, System.IO.FileMode)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Open(System.String, System.IO.FileMode, System.IO.FileAccess)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Open(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream OpenRead(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.StreamReader OpenText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream OpenWrite(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : uint8[] ReadAllBytes(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<uint8[]> ReadAllBytesAsync(System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String[] ReadAllLines(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String[] ReadAllLines(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String[]> ReadAllLinesAsync(System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String[]> ReadAllLinesAsync(System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String ReadAllText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String ReadAllText(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String> ReadAllTextAsync(System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String> ReadAllTextAsync(System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Collections.Generic.IEnumerable`1<System.String> ReadLines(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Collections.Generic.IEnumerable`1<System.String> ReadLines(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.IO.File : void Replace(System.String, System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.IO.File : void Replace(System.String, System.String, System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetAttributes(System.String, System.IO.FileAttributes)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetCreationTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetCreationTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastAccessTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastAccessTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastWriteTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastWriteTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllBytes(System.String, uint8[])
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllBytesAsync(System.String, uint8[], System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.String[])
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.String[], System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllText(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllText(System.String, System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllTextAsync(System.String, System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllTextAsync(System.String, System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+// FileInfo
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : System.IO.FileInfo CopyTo(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : System.IO.FileInfo CopyTo(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : void MoveTo(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : void MoveTo(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.FileInfo : void Replace(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.FileInfo : void Replace(System.String, System.String, bool)
+
+// FileStream
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, int32)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, int32, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, int32, System.IO.FileOptions)
+
+// StreamReader
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, System.Text.Encoding, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, System.Text.Encoding, bool, int32)
+
+// StreamWriter
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String, bool, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String, bool, System.Text.Encoding, int32)
+
+// HttpPostedFile
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Web.HttpPostedFile : void SaveAs(System.String)
+
+// FileUpload
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Web.UI.WebControls.FileUpload : void SaveAs(System.String)
+// GUID
+
+#Sink
+
+type = Basic
+category = GUID
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Guid : System.Guid NewGuid()
+// HASH
+
+// HashAlgorithm
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HashAlgorithm : System.Security.Cryptography.HashAlgorithm Create()
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HashAlgorithm : System.Security.Cryptography.HashAlgorithm Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HashAlgorithm : uint8[] ComputeHash(uint8[])
+
+// KeyedHashAlgorithm
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.KeyedHashAlgorithm : void set_Key(uint8[])
+
+// HMAC
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMAC : System.Security.Cryptography.HMAC Create()
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMAC : System.Security.Cryptography.HMAC Create(System.String)
+
+// MD5
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.MD5 : System.Security.Cryptography.MD5 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.MD5 : System.Security.Cryptography.MD5 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.MD5CryptoServiceProvider : void .ctor()
+
+// HMACMD5
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACMD5 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACMD5 : void .ctor(uint8[])
+
+// RIPEMD160
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RIPEMD160 : System.Security.Cryptography.RIPEMD160 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RIPEMD160 : System.Security.Cryptography.RIPEMD160 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RIPEMD160Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RIPEMD160CryptoServiceProvider : void .ctor()
+
+// HMACRIPEMD160
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACRIPEMD160 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACRIPEMD160 : void .ctor(uint8[])
+
+// SHA1
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA1 : System.Security.Cryptography.SHA1 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA1 : System.Security.Cryptography.SHA1 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA1Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA1CryptoServiceProvider : void .ctor()
+
+// HMACSHA1
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA1 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA1 : void .ctor(uint8[])
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA1 : void .ctor(uint8[], bool)
+
+// SHA256
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA256 : System.Security.Cryptography.SHA256 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA256 : System.Security.Cryptography.SHA256 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA256Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA256CryptoServiceProvider : void .ctor()
+
+// HMACSHA256
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA256 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA256 : void .ctor(uint8[])
+
+// SHA384
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA384 : System.Security.Cryptography.SHA384 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA384 : System.Security.Cryptography.SHA384 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA384Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA384CryptoServiceProvider : void .ctor()
+
+// HMACSHA384
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA384 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA384 : void .ctor(uint8[])
+
+// SHA512
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA512 : System.Security.Cryptography.SHA512 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA512 : System.Security.Cryptography.SHA512 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA512Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA512CryptoServiceProvider : void .ctor()
+
+// HMACSHA512
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA512 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA512 : void .ctor(uint8[])
+// IO
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : void WriteRaw(System.String)
+
+#Transform
+
+type = Basic
+category = FX
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Web.HttpServerUtility : System.String MapPath(System.String)
+
+#Source
+
+type = Basic
+category = SQL
+parameters = {'color':1,'objectMarker':false,'parameterMarkers':[]}
+System.Data.Common.DbCommand : System.String get_CommandText()
+
+type = Basic
+category = DATA
+parameters = {'color':null,'objectMarker':false,'parameterMarkers':[0]}
+System.Data.Common.DbDataReader : System.String GetString(int32)
+
+#Sink
+
+type = Basic
+category = PAGE
+parameters = {'color':1,'colors':{'PAGE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Web.HttpResponse : void Write(System.String)
+// LINQ
+
+#Sink
+
+type = Basic
+category = LINQ
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[1]}
+System.Linq.Expressions.Expression : System.Linq.Expressions.ParameterExpression Parameter(System.Type, System.String)
+// LOG
+
+// EventLog
+
+#Sink
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void .ctor(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void .ctor(System.String, System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Diagnostics.EventLog : void .ctor(System.String, System.String, System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void set_Log(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void set_MachineName(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void set_Source(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType, int32)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType, int32, int16)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,4]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType, int32, int16, uint8[])
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType, int32)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType, int32, int16)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,5]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType, int32, int16, uint8[])
+
+// LogEntry
+
+#Sink
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,5,6]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void .ctor(System.Object, System.String, int32, int32, System.Diagnostics.TraceEventType, System.String, System.Collections.Generic.IDictionary`2<System.String, System.Object>)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,5,6]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void .ctor(System.Object, System.Collections.Generic.ICollection`1<System.String>, int32, int32, System.Diagnostics.TraceEventType, System.String, System.Collections.Generic.IDictionary`2<System.String, System.Object>)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void set_Categories(System.Collections.Generic.ICollection`1<System.String>)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void set_Message(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void set_Title(System.String)
+// MAIL
+
+#Sink
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.Attachment : void .ctor(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.String, System.Net.Mime.ContentType)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.IO.Stream, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.IO.Stream, System.Net.Mime.ContentType)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.Mail.Attachment : void .ctor(System.IO.Stream, System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailAddress : void .ctor(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.MailAddress : void .ctor(System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.Mail.MailAddress : void .ctor(System.String, System.String, System.Text.Encoding)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailAddressCollection : void Add(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.Mail.MailMessage : void .ctor()
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.MailMessage : void .ctor(System.Net.Mail.MailAddress, System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.MailMessage : void .ctor(System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.Mail.MailMessage : void .ctor(System.String, System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Sender(System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_From(System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_To(System.Net.Mail.MailAddressCollection)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_CC(System.Net.Mail.MailAddressCollection)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Bcc(System.Net.Mail.MailAddressCollection)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_ReplyTo(System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Priority(System.Net.Mail.MailPriority)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Subject(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_SubjectEncoding(System.Text.Encoding)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Body(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_BodyEncoding(System.Text.Encoding)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_IsBodyHtml(bool)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.Mail.SmtpClient : void .ctor()
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void .ctor(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.SmtpClient : void .ctor(System.String, int32)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void set_Host(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void set_Port(int32)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void Send(System.Net.Mail.MailMessage)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void Send(System.String, System.String, System.String, System.String)
+
+#Source
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddress get_Sender()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddress get_From()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddressCollection get_To()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddressCollection get_CC()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddressCollection get_Bcc()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddress get_ReplyTo()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailPriority get_Priority()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.String get_Subject()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Text.Encoding get_SubjectEncoding()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.String get_Body()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Text.Encoding get_BodyEncoding()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : bool get_IsBodyHtml()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.AttachmentCollection get_Attachments()
+// NET
+
+// NetworkCredential
+
+#Sink
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.NetworkCredential : void .ctor()
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.NetworkCredential : void .ctor(System.String, System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.NetworkCredential : void .ctor(System.String, System.Security.SecureString)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.NetworkCredential : void .ctor(System.String, System.String, System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.NetworkCredential : void .ctor(System.String, System.Security.SecureString, System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_UserName(System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_Password(System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_SecurePassword(System.Security.SecureString)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_Domain(System.String)
+
+// WebProxy
+
+#Sink
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.WebProxy : void .ctor()
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.Uri)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.String, bool)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.Uri, bool)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2]}
+System.Net.WebProxy : void .ctor(System.String, bool, System.String[])
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2]}
+System.Net.WebProxy : void .ctor(System.Uri, bool, System.String[])
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2,3]}
+System.Net.WebProxy : void .ctor(System.String, bool, System.String[], System.Net.ICredentials)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2,3]}
+System.Net.WebProxy : void .ctor(System.Uri, bool, System.String[], System.Net.ICredentials)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.WebProxy : void .ctor(System.String, int32)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void set_Address(System.Uri)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void set_BypassList(System.String[])
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void set_Credentials(System.Net.ICredentials)
+// PDF
+
+#Sink
+
+type = Basic
+category = PDF
+parameters = {'color':1,'colors':{'PDF':null},'objectTracker':false,'parameterTrackers':[1]}
+PdfConverter.Converter : void ConvertHtml2Pdf(System.IO.Stream, System.String)
+// RANDOM
+
+// Random
+
+#Sink
+
+type = Basic
+category = RANDOM
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Random : void .ctor()
+
+type = Basic
+category = RANDOM
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Random : void .ctor(int32)
+
+// RandomNumberGenerator
+
+#Sink
+
+type = Basic
+category = RANDOM
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RandomNumberGenerator : void GetBytes(uint8[])
+
+type = Basic
+category = RANDOM
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RandomNumberGenerator : void GetNonZeroBytes(uint8[])
+
+// RNG
+
+#Sink
+
+type = Basic
+category = RANDOM
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RNGCryptoServiceProvider : void .ctor()
+// REFLECTION
+
+#Sink
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, bool)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, bool, bool)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, System.Func`2<System.Reflection.AssemblyName, System.Reflection.Assembly>, System.Func`4<System.Reflection.Assembly, System.String, bool, System.Type>)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, System.Func`2<System.Reflection.AssemblyName, System.Reflection.Assembly>, System.Func`4<System.Reflection.Assembly, System.String, bool, System.Type>, bool)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, System.Func`2<System.Reflection.AssemblyName, System.Reflection.Assembly>, System.Func`4<System.Reflection.Assembly, System.String, bool, System.Type>, bool, bool)
+// REGEX
+
+#Sink
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : void .ctor(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : void .ctor(System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : void .ctor(System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, int32, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, int32, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.Text.RegularExpressions.MatchEvaluator)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.Text.RegularExpressions.MatchEvaluator, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.Text.RegularExpressions.MatchEvaluator, int32, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.Text.RegularExpressions.MatchEvaluator)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.Text.RegularExpressions.MatchEvaluator, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.Text.RegularExpressions.MatchEvaluator, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+// REPORT
+
+#Sink
+
+type = Basic
+category = REPORT
+parameters = {'color':1,'colors':{'REPORT':null},'objectTracker':false,'parameterTrackers':[0]}
+CrystalDecisions.CrystalReports.Engine.ReportDocument : void Load(System.String)
+#Source
+
+type = Basic
+category = CONFIG
+parameters = {'color':1,'filter':true,'objectMarker':false,'parameterMarkers':[0]}
+Microsoft.Extensions.Configuration.ConfigurationManager : System.String get_Item(System.String)
+
+type = Basic
+category = CONFIG
+parameters = {'color':1,'filter':true,'objectMarker':false,'parameterMarkers':[]}
+BlazorShared.BaseUrlConfiguration : System.String get_WebBase()
+// CRYPTO
+
+// AES
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.Aes : System.Security.Cryptography.Aes Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.Aes : System.Security.Cryptography.Aes Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.AesManaged : void .ctor()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.AesCryptoServiceProvider : void .ctor()
+
+// DES
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DES : System.Security.Cryptography.DES Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.DES : System.Security.Cryptography.DES Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DESCryptoServiceProvider : void .ctor()
+
+// DSA
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DSA : System.Security.Cryptography.DSA Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.DSA : System.Security.Cryptography.DSA Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.DSACryptoServiceProvider : void .ctor()
+
+// RC2
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RC2 : System.Security.Cryptography.RC2 Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RC2 : System.Security.Cryptography.RC2 Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RC2CryptoServiceProvider : void .ctor()
+
+// RSA
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RSA : System.Security.Cryptography.RSA Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RSA : System.Security.Cryptography.RSA Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RSACryptoServiceProvider : void .ctor()
+
+// Rijndael
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.Rijndael : System.Security.Cryptography.Rijndael Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.Rijndael : System.Security.Cryptography.Rijndael Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RijndaelManaged : void .ctor()
+
+// TripleDES
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.TripleDES : void Create()
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.TripleDES : void Create(System.String)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.TripleDESCryptoServiceProvider : void .ctor()
+
+// SymmetricAlgorithm
+
+#Sink
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_IV(uint8[])
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_Key(uint8[])
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_Mode(System.Security.Cryptography.CipherMode)
+
+type = Basic
+category = CRYPTO
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SymmetricAlgorithm : void set_Padding(System.Security.Cryptography.PaddingMode)
+// DEBUG
+
+#Sink
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void Print(System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void Print(System.String, System.Object[])
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void Write(System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void Write(System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void Write(System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void Write(System.Object, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteIf(bool, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteIf(bool, System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteIf(bool, System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteIf(bool, System.Object, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void WriteLine(System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.Debug : void WriteLine(System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void WriteLine(System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void WriteLine(System.Object, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.Debug : void WriteLine(System.String, System.Object[])
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.Object)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.String, System.String)
+
+type = Basic
+category = DEBUG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[1,2]}
+System.Diagnostics.Debug : void WriteLineIf(bool, System.Object, System.String)
+// FILE
+
+// Directory
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.IO.DirectoryInfo CreateDirectory(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void Delete(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void Delete(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateDirectories(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFiles(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.Collections.Generic.IEnumerable`1<System.String> EnumerateFileSystemEntries(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : bool Exists(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetCreationTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetCreationTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetDirectories(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String GetDirectoryRoot(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFiles(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String, System.String, System.IO.EnumerationOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.String[] GetFileSystemEntries(System.String, System.String, System.IO.SearchOption)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastAccessTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastAccessTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastWriteTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.DateTime GetLastWriteTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : System.IO.DirectoryInfo GetParent(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.Directory : void Move(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetCreationTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetCreationTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetCurrentDirectory(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastAccessTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastAccessTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastWriteTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.Directory : void SetLastWriteTimeUtc(System.String, System.DateTime)
+
+// DirectoryInfo
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.DirectoryInfo : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.DirectoryInfo : System.IO.DirectoryInfo CreateSubdirectory(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.DirectoryInfo : void MoveTo(System.String)
+
+// File
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllText(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void AppendAllText(System.String, System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllTextAsync(System.String, System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task AppendAllTextAsync(System.String, System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.StreamWriter AppendText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Copy(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Copy(System.String, System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Create(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Create(System.String, int32)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Create(System.String, int32, System.IO.FileOptions)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.StreamWriter CreateText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void Decrypt(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void Delete(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void Encrypt(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : bool Exists(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileAttributes GetAttributes(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetCreationTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetCreationTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastAccessTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastAccessTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastWriteTime(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.DateTime GetLastWriteTimeUtc(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Move(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.File : void Move(System.String, System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Open(System.String, System.IO.FileMode)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Open(System.String, System.IO.FileMode, System.IO.FileAccess)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream Open(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream OpenRead(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.StreamReader OpenText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.IO.FileStream OpenWrite(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : uint8[] ReadAllBytes(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<uint8[]> ReadAllBytesAsync(System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String[] ReadAllLines(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String[] ReadAllLines(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String[]> ReadAllLinesAsync(System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String[]> ReadAllLinesAsync(System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String ReadAllText(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.String ReadAllText(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String> ReadAllTextAsync(System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task`1<System.String> ReadAllTextAsync(System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Collections.Generic.IEnumerable`1<System.String> ReadLines(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Collections.Generic.IEnumerable`1<System.String> ReadLines(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.IO.File : void Replace(System.String, System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.IO.File : void Replace(System.String, System.String, System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetAttributes(System.String, System.IO.FileAttributes)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetCreationTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetCreationTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastAccessTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastAccessTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastWriteTime(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void SetLastWriteTimeUtc(System.String, System.DateTime)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllBytes(System.String, uint8[])
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllBytesAsync(System.String, uint8[], System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.String[])
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllLines(System.String, System.String[], System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllLinesAsync(System.String, System.Collections.Generic.IEnumerable`1<System.String>, System.Text.Encoding, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllText(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : void WriteAllText(System.String, System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllTextAsync(System.String, System.String, System.Threading.CancellationToken)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.File : System.Threading.Tasks.Task WriteAllTextAsync(System.String, System.String, System.Text.Encoding, System.Threading.CancellationToken)
+
+// FileInfo
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : System.IO.FileInfo CopyTo(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : System.IO.FileInfo CopyTo(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : void MoveTo(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileInfo : void MoveTo(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.FileInfo : void Replace(System.String, System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.IO.FileInfo : void Replace(System.String, System.String, bool)
+
+// FileStream
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, int32)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, int32, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.FileStream : void .ctor(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, int32, System.IO.FileOptions)
+
+// StreamReader
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, System.Text.Encoding, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamReader : void .ctor(System.String, System.Text.Encoding, bool, int32)
+
+// StreamWriter
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String, bool)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String, bool, System.Text.Encoding)
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.IO.StreamWriter : void .ctor(System.String, bool, System.Text.Encoding, int32)
+
+// HttpPostedFile
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Web.HttpPostedFile : void SaveAs(System.String)
+
+// FileUpload
+
+#Sink
+
+type = Basic
+category = FILE
+parameters = {'color':1,'colors':{'FILE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Web.UI.WebControls.FileUpload : void SaveAs(System.String)
+// GUID
+
+#Sink
+
+type = Basic
+category = GUID
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Guid : System.Guid NewGuid()
+// HASH
+
+// HashAlgorithm
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HashAlgorithm : System.Security.Cryptography.HashAlgorithm Create()
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HashAlgorithm : System.Security.Cryptography.HashAlgorithm Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HashAlgorithm : uint8[] ComputeHash(uint8[])
+
+// KeyedHashAlgorithm
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.KeyedHashAlgorithm : void set_Key(uint8[])
+
+// HMAC
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMAC : System.Security.Cryptography.HMAC Create()
+
+type = Basic
+category = HASH
+parameters = {'color':0,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMAC : System.Security.Cryptography.HMAC Create(System.String)
+
+// MD5
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.MD5 : System.Security.Cryptography.MD5 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.MD5 : System.Security.Cryptography.MD5 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.MD5CryptoServiceProvider : void .ctor()
+
+// HMACMD5
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACMD5 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACMD5 : void .ctor(uint8[])
+
+// RIPEMD160
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RIPEMD160 : System.Security.Cryptography.RIPEMD160 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RIPEMD160 : System.Security.Cryptography.RIPEMD160 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RIPEMD160Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RIPEMD160CryptoServiceProvider : void .ctor()
+
+// HMACRIPEMD160
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACRIPEMD160 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACRIPEMD160 : void .ctor(uint8[])
+
+// SHA1
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA1 : System.Security.Cryptography.SHA1 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA1 : System.Security.Cryptography.SHA1 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA1Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA1CryptoServiceProvider : void .ctor()
+
+// HMACSHA1
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA1 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA1 : void .ctor(uint8[])
+
+type = Basic
+category = HASH
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA1 : void .ctor(uint8[], bool)
+
+// SHA256
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA256 : System.Security.Cryptography.SHA256 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA256 : System.Security.Cryptography.SHA256 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA256Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA256CryptoServiceProvider : void .ctor()
+
+// HMACSHA256
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA256 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA256 : void .ctor(uint8[])
+
+// SHA384
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA384 : System.Security.Cryptography.SHA384 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA384 : System.Security.Cryptography.SHA384 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA384Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA384CryptoServiceProvider : void .ctor()
+
+// HMACSHA384
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA384 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA384 : void .ctor(uint8[])
+
+// SHA512
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA512 : System.Security.Cryptography.SHA512 Create()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.SHA512 : System.Security.Cryptography.SHA512 Create(System.String)
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA512Managed : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.SHA512CryptoServiceProvider : void .ctor()
+
+// HMACSHA512
+
+#Sink
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.HMACSHA512 : void .ctor()
+
+type = Basic
+category = HASH
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.HMACSHA512 : void .ctor(uint8[])
+// IO
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : void WriteRaw(System.String)
+
+#Transform
+
+type = Basic
+category = FX
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Web.HttpServerUtility : System.String MapPath(System.String)
+
+#Source
+
+type = Basic
+category = SQL
+parameters = {'color':1,'objectMarker':false,'parameterMarkers':[]}
+System.Data.Common.DbCommand : System.String get_CommandText()
+
+type = Basic
+category = DATA
+parameters = {'color':null,'objectMarker':false,'parameterMarkers':[0]}
+System.Data.Common.DbDataReader : System.String GetString(int32)
+
+#Sink
+
+type = Basic
+category = PAGE
+parameters = {'color':1,'colors':{'PAGE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Web.HttpResponse : void Write(System.String)
+// LINQ
+
+#Sink
+
+type = Basic
+category = LINQ
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[1]}
+System.Linq.Expressions.Expression : System.Linq.Expressions.ParameterExpression Parameter(System.Type, System.String)
+// LOG
+
+// EventLog
+
+#Sink
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void .ctor(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void .ctor(System.String, System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Diagnostics.EventLog : void .ctor(System.String, System.String, System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void set_Log(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void set_MachineName(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void set_Source(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType, int32)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType, int32, int16)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,4]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.Diagnostics.EventLogEntryType, int32, int16, uint8[])
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType, int32)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType, int32, int16)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,5]}
+System.Diagnostics.EventLog : void WriteEntry(System.String, System.String, System.Diagnostics.EventLogEntryType, int32, int16, uint8[])
+
+// LogEntry
+
+#Sink
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,5,6]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void .ctor(System.Object, System.String, int32, int32, System.Diagnostics.TraceEventType, System.String, System.Collections.Generic.IDictionary`2<System.String, System.Object>)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0,1,5,6]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void .ctor(System.Object, System.Collections.Generic.ICollection`1<System.String>, int32, int32, System.Diagnostics.TraceEventType, System.String, System.Collections.Generic.IDictionary`2<System.String, System.Object>)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void set_Categories(System.Collections.Generic.ICollection`1<System.String>)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void set_Message(System.String)
+
+type = Basic
+category = LOG
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+Microsoft.Practices.EnterpriseLibrary.Logging.LogEntry : void set_Title(System.String)
+// MAIL
+
+#Sink
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.Attachment : void .ctor(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.String, System.Net.Mime.ContentType)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.IO.Stream, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.Attachment : void .ctor(System.IO.Stream, System.Net.Mime.ContentType)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.Mail.Attachment : void .ctor(System.IO.Stream, System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailAddress : void .ctor(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.MailAddress : void .ctor(System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.Mail.MailAddress : void .ctor(System.String, System.String, System.Text.Encoding)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailAddressCollection : void Add(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.Mail.MailMessage : void .ctor()
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.MailMessage : void .ctor(System.Net.Mail.MailAddress, System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.MailMessage : void .ctor(System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.Mail.MailMessage : void .ctor(System.String, System.String, System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Sender(System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_From(System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_To(System.Net.Mail.MailAddressCollection)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_CC(System.Net.Mail.MailAddressCollection)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Bcc(System.Net.Mail.MailAddressCollection)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_ReplyTo(System.Net.Mail.MailAddress)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Priority(System.Net.Mail.MailPriority)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Subject(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_SubjectEncoding(System.Text.Encoding)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_Body(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_BodyEncoding(System.Text.Encoding)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.MailMessage : void set_IsBodyHtml(bool)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.Mail.SmtpClient : void .ctor()
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void .ctor(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.Mail.SmtpClient : void .ctor(System.String, int32)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void set_Host(System.String)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void set_Port(int32)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void Send(System.Net.Mail.MailMessage)
+
+type = Basic
+category = MAIL
+parameters = {'color':1,'colors':{'MAIL':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.Mail.SmtpClient : void Send(System.String, System.String, System.String, System.String)
+
+#Source
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddress get_Sender()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddress get_From()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddressCollection get_To()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddressCollection get_CC()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddressCollection get_Bcc()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailAddress get_ReplyTo()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.MailPriority get_Priority()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.String get_Subject()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Text.Encoding get_SubjectEncoding()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.String get_Body()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Text.Encoding get_BodyEncoding()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : bool get_IsBodyHtml()
+
+type = Basic
+category = INPUT
+parameters = {'color':null,'objectTracker':false,'parameterMarkers':[]}
+System.Net.Mail.MailMessage : System.Net.Mail.AttachmentCollection get_Attachments()
+// NET
+
+// NetworkCredential
+
+#Sink
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.NetworkCredential : void .ctor()
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.NetworkCredential : void .ctor(System.String, System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.NetworkCredential : void .ctor(System.String, System.Security.SecureString)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.NetworkCredential : void .ctor(System.String, System.String, System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Net.NetworkCredential : void .ctor(System.String, System.Security.SecureString, System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_UserName(System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_Password(System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_SecurePassword(System.Security.SecureString)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.NetworkCredential : void set_Domain(System.String)
+
+// WebProxy
+
+#Sink
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[]}
+System.Net.WebProxy : void .ctor()
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.String)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.Uri)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.String, bool)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void .ctor(System.Uri, bool)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2]}
+System.Net.WebProxy : void .ctor(System.String, bool, System.String[])
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2]}
+System.Net.WebProxy : void .ctor(System.Uri, bool, System.String[])
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2,3]}
+System.Net.WebProxy : void .ctor(System.String, bool, System.String[], System.Net.ICredentials)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,2,3]}
+System.Net.WebProxy : void .ctor(System.Uri, bool, System.String[], System.Net.ICredentials)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Net.WebProxy : void .ctor(System.String, int32)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void set_Address(System.Uri)
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void set_BypassList(System.String[])
+
+type = Basic
+category = NET
+parameters = {'color':1,'colors':{'NET':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Net.WebProxy : void set_Credentials(System.Net.ICredentials)
+// PDF
+
+#Sink
+
+type = Basic
+category = PDF
+parameters = {'color':1,'colors':{'PDF':null},'objectTracker':false,'parameterTrackers':[1]}
+PdfConverter.Converter : void ConvertHtml2Pdf(System.IO.Stream, System.String)
+// RANDOM
+
+// Random
+
+#Sink
+
+type = Basic
+category = RANDOM
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[]}
+System.Random : void .ctor()
+
+type = Basic
+category = RANDOM
+parameters = {'color':-1,'objectTracker':false,'parameterTrackers':[0]}
+System.Random : void .ctor(int32)
+
+// RandomNumberGenerator
+
+#Sink
+
+type = Basic
+category = RANDOM
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RandomNumberGenerator : void GetBytes(uint8[])
+
+type = Basic
+category = RANDOM
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[0]}
+System.Security.Cryptography.RandomNumberGenerator : void GetNonZeroBytes(uint8[])
+
+// RNG
+
+#Sink
+
+type = Basic
+category = RANDOM
+parameters = {'color':1,'objectTracker':false,'parameterTrackers':[]}
+System.Security.Cryptography.RNGCryptoServiceProvider : void .ctor()
+// REFLECTION
+
+#Sink
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, bool)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, bool, bool)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, System.Func`2<System.Reflection.AssemblyName, System.Reflection.Assembly>, System.Func`4<System.Reflection.Assembly, System.String, bool, System.Type>)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, System.Func`2<System.Reflection.AssemblyName, System.Reflection.Assembly>, System.Func`4<System.Reflection.Assembly, System.String, bool, System.Type>, bool)
+
+type = Basic
+category = TYPE
+parameters = {'color':1,'colors':{'TYPE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Type : System.Type GetType(System.String, System.Func`2<System.Reflection.AssemblyName, System.Reflection.Assembly>, System.Func`4<System.Reflection.Assembly, System.String, bool, System.Type>, bool, bool)
+// REGEX
+
+#Sink
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : void .ctor(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : void .ctor(System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : void .ctor(System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : bool IsMatch(System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, int32, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.Match Match(System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.Text.RegularExpressions.MatchCollection Matches(System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, int32, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.Text.RegularExpressions.MatchEvaluator)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.Text.RegularExpressions.MatchEvaluator, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.Text.RegularExpressions.MatchEvaluator, int32, int32)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.String)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.String, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.String, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.Text.RegularExpressions.MatchEvaluator)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.Text.RegularExpressions.MatchEvaluator, System.Text.RegularExpressions.RegexOptions)
+
+type = Basic
+category = REGEX
+parameters = {'color':1,'colors':{'REGEX':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Text.RegularExpressions.Regex : System.String Replace(System.String, System.String, System.Text.RegularExpressions.MatchEvaluator, System.Text.RegularExpressions.RegexOptions, System.TimeSpan)
+// REPORT
+
+#Sink
+
+type = Basic
+category = REPORT
+parameters = {'color':1,'colors':{'REPORT':null},'objectTracker':false,'parameterTrackers':[0]}
+CrystalDecisions.CrystalReports.Engine.ReportDocument : void Load(System.String)
+#Source
+
+type = Basic
+category = CONFIG
+para// SERIALIZATION
+
+#Transform
+
+type = Basic
+category = FX
+parameters = {'color':null,'objectTracker':false,'parameterTrackers':[0]}
+System.Runtime.Serialization.Formatters.Binary.BinaryFormatter : System.Object Deserialize(System.IO.Stream)
+
+#Indirect
+
+type = Basic
+category = FX
+parameters = {'color':null,'match':0,'objectTracker':false,'parameterTrackers':[1]}
+System.Runtime.Serialization.Formatters.Binary.BinaryFormatter : void Serialize(System.IO.Stream, System.Object)
+
+#Source
+
+type = Basic
+category = NEW
+parameters = {'color':1,'objectMarker':false,'parameterMarkers':[]}
+System.Runtime.Serialization.Formatters.Binary.BinaryFormatter : void .ctor()
+// SOAP
+
+#Sink
+
+type = Basic
+category = SOAP
+parameters = {'color':1,'colors':{'SOAP':null},'objectTracker':false,'parameterTrackers':[]}
+System.Web.Services.Protocols.SoapHttpClientProtocol : void .ctor()
+
+type = Basic
+category = SOAP
+parameters = {'color':1,'colors':{'SOAP':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Web.Services.Protocols.SoapHttpClientProtocol : System.Object[] Invoke(System.String, System.Object[])
+
+type = Basic
+category = SOAP
+parameters = {'color':1,'colors':{'SOAP':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Web.Services.Protocols.SoapHttpClientProtocol : void InvokeAsync(System.String, System.Object[], System.Threading.SendOrPostCallback)
+
+type = Basic
+category = SOAP
+parameters = {'color':1,'colors':{'SOAP':null},'objectTracker':false,'parameterTrackers':[0,1]}
+System.Web.Services.Protocols.SoapHttpClientProtocol : void InvokeAsync(System.String, System.Object[], System.Threading.SendOrPostCallback, System.Object)
+// SYSTEM
+
+#Source
+
+type = Basic
+category = SYSTEM
+parameters = {'color':null,'filter':true,'objectMarker':false,'parameterMarkers':[]}
+System.Environment : System.String GetEnvironmentVariable(System.String)
+// XML
+
+// XmlDocument
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[3]}
+System.Xml.XmlDocument : System.Xml.XmlDocumentType CreateDocumentType(System.String, System.String, System.String, System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[1]}
+System.Xml.XmlDocument : System.Xml.XmlProcessingInstruction CreateProcessingInstruction(System.String, System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0,1,2]}
+System.Xml.XmlDocument : System.Xml.XmlDeclaration CreateXmlDeclaration(System.String, System.String, System.String)
+
+type = Basic
+category = XXE
+parameters = {'color':1,'colors':{'XXE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlDocument : void Load(System.String)
+
+type = Basic
+category = XXE
+parameters = {'color':1,'colors':{'XXE':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlDocument : void LoadXml(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlDocument : void Save(System.String)
+
+// XmlProcessingInstruction
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlProcessingInstruction : void set_Data(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlProcessingInstruction : void set_Value(System.String)
+
+// XmlDeclaration
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlDeclaration : void set_Encoding(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlDeclaration : void set_Standalone(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlDeclaration : void set_Value(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlDeclaration : void set_Version(System.String)
+
+// XmlReader
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.TextReader)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.Stream)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.String, System.Xml.XmlReaderSettings)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.TextReader, System.Xml.XmlReaderSettings)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.Stream, System.Xml.XmlReaderSettings)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.String, System.Xml.XmlReaderSettings, System.Xml.XmlParserContext)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.TextReader, System.Xml.XmlReaderSettings, System.Xml.XmlParserContext)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.Stream, System.Xml.XmlReaderSettings, System.Xml.XmlParserContext)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.TextReader, System.Xml.XmlReaderSettings, System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlReader : System.Xml.XmlReader Create(System.IO.Stream, System.Xml.XmlReaderSettings, System.String)
+
+// XmlWriter
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.Text.StringBuilder)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.IO.TextWriter)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.IO.Stream)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.String, System.Xml.XmlWriterSettings)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.Text.StringBuilder, System.Xml.XmlWriterSettings)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.IO.TextWriter, System.Xml.XmlWriterSettings)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlWriter : System.Xml.XmlWriter Create(System.IO.Stream, System.Xml.XmlWriterSettings)
+
+// XmlTextReader
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.String)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.IO.TextReader)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.IO.Stream)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.String, System.Xml.XmlNameTable)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.IO.TextReader, System.Xml.XmlNameTable)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.IO.Stream, System.Xml.XmlNameTable)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.String, System.Xml.XmlNodeType, System.Xml.XmlParserContext)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextReader : void .ctor(System.IO.Stream, System.Xml.XmlNodeType, System.Xml.XmlParserContext)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[1]}
+System.Xml.XmlTextReader : void .ctor(System.String, System.IO.TextReader)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[1]}
+System.Xml.XmlTextReader : void .ctor(System.String, System.IO.Stream)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[1]}
+System.Xml.XmlTextReader : void .ctor(System.String, System.IO.TextReader, System.Xml.XmlNameTable)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[1]}
+System.Xml.XmlTextReader : void .ctor(System.String, System.IO.Stream, System.Xml.XmlNameTable)
+
+// XmlTextWriter
+
+#Sink
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextWriter : void .ctor(System.String, System.Text.Encoding)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextWriter : void .ctor(System.IO.TextWriter)
+
+type = Basic
+category = XML
+parameters = {'color':1,'colors':{'XML':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XmlTextWriter : void .ctor(System.IO.Stream, System.Text.Encoding)
+// XPATH
+
+#Sink
+
+type = Basic
+category = XPATH
+parameters = {'color':1,'colors':{'XPATH':null},'objectTracker':false,'parameterTrackers':[0]}
+System.Xml.XPath.XPathDocument : void .ctor(System.String)
