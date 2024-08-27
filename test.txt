@@ -31,4 +31,4 @@ REM Generate a 2048-bit private key
 openssl genrsa -out "%certdir%\private.key" 2048
 
 REM Generate a self-signed certificate valid for 10 years (3650 days)
-openssl req -new -x509 -days 3650 -key "%certdir%\private.key" -out "%certdir%\server.pem" -subj "/CN=*.acmecorp.com"
+openssl req -new -x509 -days 3650 -key "%certdir%\private.key" -out "%certdir%\server.pem" -subj "/CN=*.example.com"
