@@ -2,5 +2,15 @@ openssl genrsa -out cert/private.key 2048
 openssl pkcs8 -topk8 -inform PEM -outform DER -in cert/private.key -out cert/private.der -nocrypt
 
 # Generate a self-signed certificate in DER format valid for 10 years (3650 days)
-openssl req -new -x509 -days 3650 -key cert/private.key -out cert/server.pem -subj "/CN=*.acmecorp.com"
+openssl req -new -x509 -days 3650 -key cert/private.key -out cert/server.pem -subj "/CN=*.example.com"
 openssl x509 -outform DER -in cert/server.pem -out cert/server.der
+
+
+
+C:\Users\ITGRC2\Desktop>python mitm_relay.py -l 0.0.0.0 -r tcp:443:172.16.63.154:443 -p http://127.0.0.1:8080 -c cacert.der
+[!] Server cert/key not provided, SSL/TLS interception will not be available. To generate certs, see provided script 'gen_certs.sh'.
+[i] Webserver listening on 127.0.0.1:49999
+[i] Client <> Server communications will be relayed via proxy http://127.0.0.1:8080
+[+] Relay listening on tcp 443 -> 172.16.63.154:443
+[+] New client 127.0.0.1:54757 will be relayed to 172.16.63.154:443
+[!] SSL/TLS handshake detected, provide a server cert and key to enable interception.
