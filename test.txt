@@ -1,0 +1,6 @@
+openssl genrsa -out cert/private.key 2048
+openssl pkcs8 -topk8 -inform PEM -outform DER -in cert/private.key -out cert/private.der -nocrypt
+
+# Generate a self-signed certificate in DER format valid for 10 years (3650 days)
+openssl req -new -x509 -days 3650 -key cert/private.key -out cert/server.pem -subj "/CN=*.acmecorp.com"
+openssl x509 -outform DER -in cert/server.pem -out cert/server.der
