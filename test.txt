@@ -14,3 +14,6 @@ C:\Users\ITGRC2\Desktop>python mitm_relay.py -l 0.0.0.0 -r tcp:443:172.16.63.154
 [+] Relay listening on tcp 443 -> 172.16.63.154:443
 [+] New client 127.0.0.1:54757 will be relayed to 172.16.63.154:443
 [!] SSL/TLS handshake detected, provide a server cert and key to enable interception.
+
+
+python mitm_relay.py -l 0.0.0.0 -r tcp:443:172.16.63.154:443 -p http://127.0.0.1:8080 -c cert/cacert.der --key cert/private.der
